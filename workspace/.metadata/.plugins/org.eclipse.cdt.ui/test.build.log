@@ -1,0 +1,147 @@
+08:51:25 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+arm-none-eabi-gcc ../Drivers/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q15.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../../Core/Inc -I/home/willoweyes/BKRobocon/test/Core/Inc -I/home/willoweyes/BKRobocon/test/Core -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver/Src -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I/home/willoweyes/BKRobocon/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -includeSrc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q15.o 
+arm-none-eabi-gcc ../Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/src/math_helper.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../../Core/Inc -I/home/willoweyes/BKRobocon/test/Core/Inc -I/home/willoweyes/BKRobocon/test/Core -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver/Src -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I/home/willoweyes/BKRobocon/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -includeSrc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/src/math_helper.o 
+arm-none-eabi-gcc ../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../../Core/Inc -I/home/willoweyes/BKRobocon/test/Core/Inc -I/home/willoweyes/BKRobocon/test/Core -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver/Src -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I/home/willoweyes/BKRobocon/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -includeSrc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.o 
+arm-none-eabi-gcc ../Drivers/CMSIS/DSP/DSP_Lib_TestSuite/RefLibs/src/StatisticsFunctions/var.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../../Core/Inc -I/home/willoweyes/BKRobocon/test/Core/Inc -I/home/willoweyes/BKRobocon/test/Core -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver/Src -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I/home/willoweyes/BKRobocon/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -includeSrc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/CMSIS/DSP/DSP_Lib_TestSuite/RefLibs/src/StatisticsFunctions/var.o 
+<command-line>: fatal error: Src: No such file or directory
+compilation terminated.
+arm-none-eabi-gcc ../Drivers/CMSIS/DSP/Source/FilteringFunctions/arm_lms_f32.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../../Core/Inc -I/home/willoweyes/BKRobocon/test/Core/Inc -I/home/willoweyes/BKRobocon/test/Core -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver/Src -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I/home/willoweyes/BKRobocon/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -includeSrc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/CMSIS/DSP/Source/FilteringFunctions/arm_lms_f32.o 
+<command-line>: fatal error: Src: No such file or directory
+compilation terminated.
+arm-none-eabi-gcc ../MDK-ARM/Remote_control_car_4_motor/Motor.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../../Core/Inc -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver/Inc -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver/Src -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o MDK-ARM/Remote_control_car_4_motor/Motor.o 
+<command-line>: fatal error: Src: No such file or directory
+compilation terminated.
+arm-none-eabi-gcc ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../../Core/Inc -I/home/willoweyes/BKRobocon/test/Core/Inc -I/home/willoweyes/BKRobocon/test/Core -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver/Src -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I/home/willoweyes/BKRobocon/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -includeSrc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o 
+<command-line>: fatal error: Src: No such file or directory
+compilation terminated.
+arm-none-eabi-gcc ../Drivers/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_q31.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../../Core/Inc -I/home/willoweyes/BKRobocon/test/Core/Inc -I/home/willoweyes/BKRobocon/test/Core -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver/Src -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I/home/willoweyes/BKRobocon/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -includeSrc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_q31.o 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.o ../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s 
+<command-line>: fatal error: Src: No such file or directory
+compilation terminated.
+arm-none-eabi-gcc ../Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/src/basic_math_tests/mult_tests.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../../Core/Inc -I/home/willoweyes/BKRobocon/test/Core/Inc -I/home/willoweyes/BKRobocon/test/Core -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver/Src -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I/home/willoweyes/BKRobocon/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -includeSrc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/src/basic_math_tests/mult_tests.o 
+arm-none-eabi-gcc ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../../Core/Inc -I/home/willoweyes/BKRobocon/test/Core/Inc -I/home/willoweyes/BKRobocon/test/Core -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver/Src -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I/home/willoweyes/BKRobocon/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -includeSrc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o 
+<command-line>: fatal error: Src: No such file or directory
+compilation terminated.
+arm-none-eabi-gcc ../Drivers/CMSIS/DSP/Source/BasicMathFunctions/arm_add_f32.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../../Core/Inc -I/home/willoweyes/BKRobocon/test/Core/Inc -I/home/willoweyes/BKRobocon/test/Core -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver/Src -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I/home/willoweyes/BKRobocon/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -includeSrc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/CMSIS/DSP/Source/BasicMathFunctions/arm_add_f32.o 
+<command-line>: fatal error: Src: No such file or directory
+compilation terminated.
+arm-none-eabi-gcc ../Drivers/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_q15.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../../Core/Inc -I/home/willoweyes/BKRobocon/test/Core/Inc -I/home/willoweyes/BKRobocon/test/Core -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver/Src -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I/home/willoweyes/BKRobocon/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -includeSrc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_q15.o 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s: Assembler messages:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:1: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:2: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:3: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:4: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:5: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:6: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:7: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:8: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:9: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:10: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:11: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:12: Error: junk at end of line, first unrecognized character is `*'
+arm-none-eabi-gcc ../Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/src/statistics_tests/std_tests.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../../Core/Inc -I/home/willoweyes/BKRobocon/test/Core/Inc -I/home/willoweyes/BKRobocon/test/Core -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver/Src -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I/home/willoweyes/BKRobocon/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -includeSrc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/src/statistics_tests/std_tests.o 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:13: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:14: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:15: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:15: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:16: Error: junk at end of line, first unrecognized character is `*'
+<command-line>: fatal error: Src: No such file or directory
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:17: Error: junk at end of line, first unrecognized character is `*'
+compilation terminated.
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:18: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:19: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:20: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:21: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:22: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:23: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:24: Error: junk at end of line, first unrecognized character is `*'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:26: Error: bad instruction `amount of memory(in bytes)allocated for Stack'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:27: Error: bad instruction `tailor this value to your application needs'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:28: Error: junk at end of line, first unrecognized character is `<'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:29: Error: junk at end of line, first unrecognized character is `<'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:30: Error: junk at end of line, first unrecognized character is `<'
+arm-none-eabi-gcc ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../../Core/Inc -I/home/willoweyes/BKRobocon/test/Core/Inc -I/home/willoweyes/BKRobocon/test/Core -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver/Src -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I/home/willoweyes/BKRobocon/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -includeSrc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.o 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:32: Error: bad instruction `stack_size EQU 0x00000400'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:34: Error: bad instruction `area STACK,NOINIT,READWRITE,ALIGN=3'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:35: Error: bad instruction `stack_mem SPACE Stack_Size'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:36: Error: bad instruction `__initial_sp'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:36: Error: bad instruction `__initial_sp'
+<command-line>: fatal error: Src: No such file or directory
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:39: Error: junk at end of line, first unrecognized character is `<'
+compilation terminated.
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:40: Error: junk at end of line, first unrecognized character is `<'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:41: Error: junk at end of line, first unrecognized character is `<'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:43: Error: bad instruction `heap_size EQU 0x00000200'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:45: Error: bad instruction `area HEAP,NOINIT,READWRITE,ALIGN=3'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:46: Error: bad instruction `__heap_base'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:47: Error: bad instruction `heap_mem SPACE Heap_Size'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:48: Error: bad instruction `__heap_limit'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:50: Error: bad instruction `preserve8'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:51: Error: bad instruction `thumb'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:54: Error: bad instruction `vector Table Mapped to Address 0 at Reset'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:55: Error: bad instruction `area RESET,DATA,READONLY'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:56: Error: bad instruction `export __Vectors'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:57: Error: bad instruction `export __Vectors_End'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:58: Error: bad instruction `export __Vectors_Size'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:60: Error: bad instruction `__vectors DCD __initial_sp'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:60: Error: bad instruction `top of Stack'
+arm-none-eabi-gcc ../Drivers/CMSIS/DSP/DSP_Lib_TestSuite/RefLibs/src/MatrixFunctions/mat_inverse.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../../Core/Inc -I/home/willoweyes/BKRobocon/test/Core/Inc -I/home/willoweyes/BKRobocon/test/Core -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver/Src -I/home/willoweyes/BKRobocon/test/Drivers/STM32F4xx_HAL_Driver -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I/home/willoweyes/BKRobocon/test/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -includeSrc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/CMSIS/DSP/DSP_Lib_TestSuite/RefLibs/src/MatrixFunctions/mat_inverse.o 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:61: Error: bad instruction `dcd Reset_Handler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:61: Error: bad instruction `reset Handler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:62: Error: bad instruction `dcd NMI_Handler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:62: Error: bad instruction `nmi Handler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:62: Error: bad instruction `nmi Handler'
+<command-line>: fatal error: Src: No such file or directory
+Info: Parallel threads used: 7
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:63: Error: bad instruction `dcd HardFault_Handler'
+compilation terminated.
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:63: Error: bad instruction `hard Fault Handler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:64: Error: bad instruction `dcd MemManage_Handler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:64: Error: bad instruction `mpu Fault Handler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:65: Error: bad instruction `dcd BusFault_Handler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:65: Error: bad instruction `bus Fault Handler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:66: Error: bad instruction `dcd UsageFault_Handler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:66: Error: bad instruction `usage Fault Handler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:67: Error: bad instruction `dcd 0'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:67: Error: bad instruction `reserved'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:68: Error: bad instruction `dcd 0'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:68: Error: bad instruction `reserved'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:69: Error: bad instruction `dcd 0'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:69: Error: bad instruction `reserved'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:70: Error: bad instruction `dcd 0'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:70: Error: bad instruction `reserved'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:71: Error: bad instruction `dcd SVC_Handler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:71: Error: bad instruction `svcall Handler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:72: Error: bad instruction `dcd DebugMon_Handler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:72: Error: bad instruction `debug Monitor Handler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:73: Error: bad instruction `dcd 0'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:73: Error: bad instruction `reserved'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:74: Error: bad instruction `dcd PendSV_Handler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:74: Error: bad instruction `pendsv Handler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:75: Error: bad instruction `dcd SysTick_Handler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:75: Error: bad instruction `systick Handler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:77: Error: bad instruction `external Interrupts'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:78: Error: bad instruction `dcd WWDG_IRQHandler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:78: Error: bad instruction `window WatchDog'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:79: Error: bad instruction `dcd PVD_IRQHandler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:79: Error: bad instruction `pvd through EXTI Line detection'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:80: Error: bad instruction `dcd TAMP_STAMP_IRQHandler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:80: Error: bad instruction `tamper and TimeStamps through the EXTI line'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:81: Error: bad instruction `dcd RTC_WKUP_IRQHandler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:81: Error: bad instruction `rtc Wakeup through the EXTI line'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:82: Error: bad instruction `dcd FLASH_IRQHandler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:81: Error: bad instruction `dcd RTC_WKUP_IRQHandler'
+<command-line>: fatal error: Src: No such file or directory
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:82: Error: bad instruction `flash'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:83: Error: bad instruction `dcd RCC_IRQHandler'
+compilation terminated.
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:83: Error: bad instruction `rcc'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:84: Error: bad instruction `dcd EXTI0_IRQHandler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:84: Error: bad instruction `exti Line0'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:85: Error: bad instruction `dcd EXTI1_IRQHandler'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:85: Error: bad instruction `exti Line1'
+../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f423xx.s:86: Error: bad instruction `dcd EXTI2_IRQHandler'
+
+08:51:26 Build Failed. 99 errors, 0 warnings. (took 524ms)
+

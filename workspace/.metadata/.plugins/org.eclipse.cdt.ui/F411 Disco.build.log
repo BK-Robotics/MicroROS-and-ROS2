@@ -1,0 +1,10 @@
+01:47:32 **** Incremental Build of configuration Debug for project F411 Disco ****
+make -j16 all 
+echo 151003 | sudo -S docker pull microros/micro_ros_static_library_builder:humble && sudo -S docker run --rm -v /home/willoweyes/STM32CubeIDE/test_workspace (fix)/F411 Disco:/project --env MICROROS_LIBRARY_FOLDER=micro_ros_stm32cubemx_utils/microros_static_library_ide microros/micro_ros_static_library_builder:humble
+/bin/sh: 1: Syntax error: "(" unexpected
+make[1]: *** [makefile:93: pre-build] Error 2
+make: *** [makefile:66: all] Error 2
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+
+01:47:32 Build Failed. 2 errors, 0 warnings. (took 170ms)
+

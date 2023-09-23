@@ -1,0 +1,25 @@
+08:11:02 **** Incremental Build of configuration Debug for project F411 Disco2 ****
+make -j16 all 
+echo 151003 | sudo -S docker pull microros/micro_ros_static_library_builder:humble && echo 151003 | sudo -S docker run --rm -v "/home/willoweyes/STM32CubeIDE/workspace/F411 Disco2":/project --env MICROROS_LIBRARY_FOLDER=micro_ros_stm32cubemx_utils/microros_static_library_ide microros/micro_ros_static_library_builder:humble
+humble: Pulling from microros/micro_ros_static_library_builder
+Digest: sha256:3c13fee7e7d6814ebc87c7ccd4c5d7592310b8adc86c5ff2a1f4de179776a0fb
+Status: Image is up to date for microros/micro_ros_static_library_builder:humble
+docker.io/microros/micro_ros_static_library_builder:humble
+[sudo] password for willoweyes: dos2unix: converting file /project/micro_ros_stm32cubemx_utils/microros_static_library_ide/library_generation/library_generation.sh to Unix format...
+micro-ROS library found. Skipping...
+Delete micro_ros_stm32cubemx_utils/microros_static_library_ide/libmicroros/ for rebuild.
+ 
+arm-none-eabi-gcc -o "F411 Disco2.elf" @"objects.list"  -lmicroros -mcpu=cortex-m4 -T"/home/willoweyes/STM32CubeIDE/workspace/F411 Disco2/STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F411 Disco2.map" -Wl,--gc-sections -static -L"/home/willoweyes/STM32CubeIDE/workspace/F411 Disco2/micro_ros_stm32cubemx_utils/microros_static_library_ide/libmicroros" -L"/home/willoweyes/STM32CubeIDE/workspace/F411 Disco2/micro_ros_stm32cubemx_utils/microros_static_library_ide/libmicroros/include" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb
+Finished building target: F411 Disco2.elf
+ 
+arm-none-eabi-size   F411\ Disco2.elf 
+arm-none-eabi-objdump -h -S  F411\ Disco2.elf  > "F411 Disco2.list"
+   text	   data	    bss	    dec	    hex	filename
+  54216	    344	  52984	 107544	  1a418	F411 Disco2.elf
+Finished building: default.size.stdout
+ 
+Finished building: F411 Disco2.list
+ 
+
+08:11:06 Build Finished. 0 errors, 0 warnings. (took 3s.802ms)
+
