@@ -18,6 +18,7 @@ STM32CubeIDE
 ### Prerequisites:
 I will update this based on the bugs that people get :)
 1. CH340 Driver
+   You can download CH340 Driver for Linux here: https://www.wch.cn/downloads/CH341SER_LINUX_ZIP.html
 
 ### If you want to flash to STM32, follow these steps:
 1. Clone the repo to your own local folder
